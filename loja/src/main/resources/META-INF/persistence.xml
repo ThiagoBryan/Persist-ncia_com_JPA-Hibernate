@@ -10,6 +10,8 @@
         	<property name="javax.persistence.jdbc.user" value="sa"/>
 			<property name="javax.persistence.jdbc.password" value=""/>
         	<property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
+       		<property name="hibernate.show_sql" value="true"/><!-- Imprime no console o insert, delete, etc -->
+       		<property name="hibernate.hbm2ddl.auto" value="update"/><!-- cria as tabelas -->
         </properties>
     </persistence-unit>
  </persistence>
